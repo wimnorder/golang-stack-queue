@@ -102,6 +102,6 @@ func main() {
 	queue.Push(&Node{9})
 	queue.Push(&Node{10})
 
-	fmt.Println(stack.Pop(), stack.Pop(), stack.Pop(), stack.Pop(), stack.Pop(),
-		stack.Pop(), stack.Pop(), stack.Pop(), stack.Pop(), stack.Pop())
+	fmt.Println(queue.Pop(), queue.Pop(), queue.Pop(), queue.Pop(), queue.Pop(),
+		queue.Pop(), queue.Pop(), queue.Pop(), queue.Pop(), queue.Pop())
 }
